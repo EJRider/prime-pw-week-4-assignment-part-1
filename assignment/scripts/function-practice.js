@@ -39,11 +39,12 @@ console.log(multiplyThree(2, 4, 6));
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
+// When number is greater than zero it will return true, otherwise return false
 function isPositive( number ) {
   if ( number > 0 ){
-    return;
+    return true;
   }
-    return;
+    return false;
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
