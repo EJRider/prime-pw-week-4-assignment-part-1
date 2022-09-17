@@ -75,14 +75,17 @@ console.log(getLast([2,4,6,8,10]));
 // Code needs to return array[value] in the end. A for loop should work, with and if statement inside to stop it once i reaches value, then return that value 
 function find( value, array ){
   for ( let i=0; i<array.length; i++){
-    if (i === value){
-      return array[i];
+    if (array[i] === value){
+      return true;
+    }
+    else {
+      return false;
     }
   }
 }
 
 
-console.log(find(3,[2,4,6,8,10,12]));
+console.log(find(2,[2,4,6,8,10,12]));
 // ----------------------
 // Stretch Goals
 // ----------------------
